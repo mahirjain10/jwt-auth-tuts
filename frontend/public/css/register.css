@@ -1,0 +1,78 @@
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+#register-div{
+    border:0.5px solid #c0c0c0;
+    border-radius:5px;
+    /* border: 2px solid black; */
+    width:350px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+}
+#register-head{
+    font-family: 'Bree Serif', serif;
+    font-size: 35px;
+    padding:20px 0 0 20px;
+}
+.title-class{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+#is-admin-checkbox{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+#is-admin-checkbox-div{
+    padding-top: 15px;
+}
+.input-class{
+    height:40px;
+    width:310px;
+    border:1px solid #808080;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 15px ;
+}
+.input-class:focus{
+    outline: #808080;
+    background-color: #ADD8E6;
+}
+.inner-div{
+    align-self: center;
+}
+#name-div{
+    padding-top: 20px;
+}
+#email-div{
+    padding-top: 15px;
+}
+#password-div{
+    padding-top: 15px;
+}
+#re-enter-password-div{
+    padding-top: 15px;
+}
+#register-btn-div{
+    padding-top: 15px;
+} 
+#register-btn{
+    height:40px;
+    width:310px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color:#f0c040;
+    border:1px solid #808080;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#already-user-line{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,65 @@
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+#sign-in-div{
+    border:0.5px solid #c0c0c0;
+    border-radius:5px;
+    /* border: 2px solid black; */
+    width:350px;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+}
+#sign-in-head{
+    font-family: 'Bree Serif', serif;
+    font-size: 35px;
+    padding:20px 0 0 20px;
+}
+.title-class{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+.input-class{
+    height:40px;
+    width:310px;
+    border:1px solid #808080;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 15px ;
+}
+.input-class:focus{
+    outline: #808080;
+    background-color: #ADD8E6;
+}
+.inner-div{
+    align-self: center;
+}
+#email-div{
+    padding-top: 30px;
+}
+#password-div{
+    padding-top: 20px;
+}
+#signin-btn-div{
+    padding-top: 30px;
+}
+#signin-btn{
+    height:40px;
+    width:310px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color:#f0c040;
+    border:1px solid #808080;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#new-user-line{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/css/signin.css"></link>
+        <link rel="stylesheet" href="/css/index.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+    {{>header}}
+    <form action='/login/data/recorded' method='POST' autocomplete="off">
+    <div id="wrapper">
+    <div id="sign-in-div">
+        <div id="sign-in-head" class="sign-in-head-class">Sign-in</div>
+        <div id="email-div" class="inner-div">
+        <div id="email-title-id" class="title-class">Email</div>
+        <input type="email" id="email-input=id" class="input-class" name="email"></input>
+        </div>
+        <div id="password-div" class="inner-div">
+        <div id="password-title-id" class="title-class">Password</div>
+        <input type="password" id="password-input-id" class="input-class" name="password"></input>
+        </div>
+        <div id="signin-btn-div" class="inner-div">
+        <button type="submit" id="signin-btn">sign-in</button>
+        </div>
+        <div id="new-user-div" class="inner-div">
+            <p id="new-user-line">New User?<a href="/register"> Create your account</a></p>
+            </div>
+    </div>
+
+     </div>
+     </div>
+        </form>
+</html>

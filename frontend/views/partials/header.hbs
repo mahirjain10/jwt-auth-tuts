@@ -1,0 +1,16 @@
+<header class="site-header">
+            <div class="site-identity">
+                <h1><a href="#">Mern Auth JWT</a></h1>
+            </div>
+            <nav class="site-navigation">
+                <ul class="nav">
+                    {{#if renderLogin}}
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/register">Register</a></li>
+                    {{/if}}
+                    {{#if renderLogOut}}
+                    <li><a href="/logout">Logout</a></li>
+                    {{/if}}
+                </ul>
+            </nav>
+</header>
